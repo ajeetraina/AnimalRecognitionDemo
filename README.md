@@ -1,7 +1,6 @@
 # AnimalRecognitionDemo
 
-This demo combines several [Redis](https://redis.io) data structures and [Redis Modules](https://redis.io/topics/modules-intro)
-to process a stream of images and filter out the images that contain cats.
+This demo combines several [Redis](https://redis.io) data structures and [Redis Modules](https://redis.io/topics/modules-intro) to process a stream of images and filter out the images that contain cats.
 
 It uses:
 
@@ -19,6 +18,7 @@ Docker and Python 2
 
 ## Running the Demo
 To run the demo:
+
 ```
 $ git clone https://github.com/RedisGears/AnimalRecognitionDemo.git
 $ cd AnimalRecognitionDemo
