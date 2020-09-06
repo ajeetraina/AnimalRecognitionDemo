@@ -14,9 +14,24 @@ It forwards the images that contain cats to a stream: `cats`
 ![Architecture](/architecture.png)
 
 ## Requirements
-Docker and Python 2
+- Docker
+- PIP 
+
+```
+apt install python-pip
+```
+
+```
+pip install urlparse2
+```
+
+```
+pip install redis
+```
+
 
 ## Running the Demo
+
 To run the demo:
 
 ```
